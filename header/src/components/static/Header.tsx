@@ -8,13 +8,13 @@ const Header = () => {
 
             <Navs>
                 <Nav>Home</Nav>
-                <Nav>About</Nav>
-                <Nav>Contact</Nav>
+                <Nav>DataFetch</Nav>
+                <Nav>Todo</Nav>
             </Navs>
 
             <Buttons>
                 <Reg>Register</Reg>
-                <Reg2>Sign in</Reg2>
+                {/* <Reg2>Sign in</Reg2> */}
             </Buttons>
 
         </Head>
@@ -35,21 +35,21 @@ export default Header;
 
 // const Head = styled.div``;
 
-const Reg2 = styled.button`
-width: 100px;
-height: 35px;
-border-radius: 7px;
-margin-right: 40px;
-border: 1px solid black;
-background: transparent;
-font-weight: 700;
+// const Reg2 = styled.button`
+// width: 100px;
+// height: 35px;
+// border-radius: 7px;
+// margin-right: 40px;
+// border: 1px solid black;
+// background: transparent;
+// font-weight: 700;
 
-:hover{
-    border: none;
-    background: black;
-    color: white;
-}
-`;
+// :hover{
+//     border: none;
+//     background: black;
+//     color: white;
+// }
+// `;
 
 const Reg = styled.button`
 width: 100px;
